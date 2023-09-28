@@ -13,19 +13,34 @@ sections:
       username: admin
   - block: features
     content:
-      title: Skills
+      title: Programming Languages 
       items:
+        - name: C/C++
+          #description: 90%
+          icon: c
+          icon_pack: fa
+        - name: Java
+          #description: 100%
+          icon: java
+          icon_pack: fab
+        - name: Python
+          #description: 100%
+          icon: python
+          icon_pack: fab
+        - name: Haskell
+          icon: arrow-right
+          icon_pack: fas
+        - name: SQL
+          icon: database
+          icon_pack: fas
         - name: R
-          description: 90%
           icon: r-project
           icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
-          icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
+        - name: Git
+          icon: git
+          icon_pack: fab
+        - name: Bash
+          icon: terminal
           icon_pack: fas
   - block: experience
     content:
@@ -39,27 +54,24 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
+        - title: Attendee
+          company: Cornell, Maryland, Max Planck Pre-doctoral Research School
+          company_url: 'https://cmmrs.mpi-sws.org/'
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          location: 'MPI-SWS Saarbrucken'
+          date_start: 'August, 2023'
+          date_end: 'August, 2023'
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              Summer school hosted by MPI-SWS on state-of-the-art research in computer science.
+              Engagement in lectures and interaction with a highly international group of faculty and students.
+        - title: Radboud Honours Programme Science
+          company: Rabboud University 
+          company_url: 'https://www.ru.nl/honoursacademy/bachelor/science/'
+          company_logo: ''
+          location: Nijmegen
+          date_start: 'August, 2023'
+          date_end: ''
+          description: Selection programme (25/year) for extracurricular research. Working on grant proposal for interdisciplinary research in neural modelling.
     design:
       columns: '2'
   - block: accomplishments
@@ -75,30 +87,30 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+        - certificate_url: https://wiskundeolympiade.nl/docenten/info-in-english
+          date_end: 'September 2021'
+          date_start: 'September 2021'
+          description: 'Eindhoven'
+          organization: 'Dutch Mathematical Olympiad'
+          organization_url: https://wiskundeolympiade.nl/docenten/info-in-english
+          title: Nationwide Finalist (16th)
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+        - certificate_url: https://www.omojaarverslag.nl/verslag2022/f/omoprijzen/omoprijzen-een-bijzondere-motiveringsprijs-voor-leerlingen
+          date_end: 'July 2022'
+          date_start: 'July 2022'
+          description: 'Won the first prize of 1200 euro with project titled \"Optimizing Black Jack Strategies using Reinforcement Learning\"'
+          organization: OMO
+          organization_url: https://www.omojaarverslag.nl/verslag2022/f/omoprijzen/omoprijzen-een-bijzondere-motiveringsprijs-voor-leerlingen
+          title: VWO Final Project Award, 1st place (/34 high schools),
+          url: https://www.omojaarverslag.nl/verslag2022/f/omoprijzen/omoprijzen-een-bijzondere-motiveringsprijs-voor-leerlingen
+        #- certificate_url: https://www.datacamp.com
+        #  date_end: '2020-12-21'
+        #  date_start: '2020-07-01'
+        #  description: ''
+        #  organization: DataCamp
+        #  organization_url: https://www.datacamp.com
+        #  title: 'Object-Oriented Programming in R'
+        #  url: ''
     design:
       columns: '2'
   - block: collection

@@ -1,47 +1,47 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Matthijs Muis 
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Matthijs
+last_name: Muis
 
 # Status emoji
-status:
-  icon: ☕️
+status: 
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Double BSc student in Mathematics and Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Radboud University
+    url: https://www.ru.nl/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: ""
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Statistics and Probability
+  - Analysis and Topology
+  - Algorithms and Datastructures
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: BSc in Mathematics
+      institution: Radboud University
+      year: 2025
+    - course: BSs in Compurter Science 
+      institution: Radboud University
+      year: 2025
+    - course: VWO (Pre-university education)
+      institution: Mill-Hill College
+      year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -50,22 +50,22 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: matthijs.muis@ru.nl
+  #- icon: twitter
+  #  icon_pack: fab
+  #  link: https://twitter.com/GeorgeCushen
+  #  label: Follow me on Twitter
+  #  display:
+  #    header: true
+  #- icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+  #  icon_pack: fas
+  #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/matthijsmu
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/matthijs-muis
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -80,5 +80,7 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a double degree BSc student in Mathematics and Computer Science at Radboud University. My academic interests include (Randomized) Algorithms and Datastructures, but I also like fundamental statistics, numerical methods and Analysis/Topology. At the moment, I am busy studying my two degrees and getting involved in research via my university's scientific honours programme. I am looking for a summer internship.
+
+Mathematical puzzles have busied me since longer: I placed 16th in the national finale of the [Dutch Mathematical Olympiad](https://wiskundeolympiade.nl/docenten/info-in-english) (2021). My secondary school project on optimizing blackjack strategies using reinforcement learning was awarded the first prize in the [OMO PWS Contest](https://www.omojaarverslag.nl/verslag2022/f/omoprijzen/omoprijzen-een-bijzondere-motiveringsprijs-voor-leerlingen) (2022). This summer (2023), I was selected for the [Cornell, Maryland, Max Planck Pre-doctoral Research School](https://cmmrs.mpi-sws.org/). 
 {style="text-align: justify;"}
