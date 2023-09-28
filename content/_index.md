@@ -59,8 +59,8 @@ sections:
           company_url: 'https://cmmrs.mpi-sws.org/'
           company_logo: org-gc
           location: 'MPI-SWS Saarbrucken'
-          date_start: 'August, 2023'
-          date_end: 'August, 2023'
+          date_start: '2023-08-06'
+          date_end: '2023-08-13'
           description: |2-
               Summer school hosted by MPI-SWS on state-of-the-art research in computer science.
               Engagement in lectures and interaction with a highly international group of faculty and students.
@@ -69,8 +69,8 @@ sections:
           company_url: 'https://www.ru.nl/honoursacademy/bachelor/science/'
           company_logo: ''
           location: Nijmegen
-          date_start: 'August, 2023'
-          date_end: ''
+          date_start: '2023-08-31'
+          date_end: '2025-08-01'
           description: Selection programme (25/year) for extracurricular research. Working on grant proposal for interdisciplinary research in neural modelling.
     design:
       columns: '2'
@@ -87,17 +87,17 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://wiskundeolympiade.nl/docenten/info-in-english
-          date_end: 'September 2021'
-          date_start: 'September 2021'
-          description: 'Eindhoven'
+        - certificate_url: 
+          date_end: '2021-09-17'
+          date_start: '2021-09-17'
+          description: 'Reached 16th place (9th of my age) in the national finals. Hosted at TU Eindhoven.'
           organization: 'Dutch Mathematical Olympiad'
           organization_url: https://wiskundeolympiade.nl/docenten/info-in-english
-          title: Nationwide Finalist (16th)
-          url: ''
+          title: Finalist
+          url: https://wiskundeolympiade.nl/docenten/info-in-english
         - certificate_url: https://www.omojaarverslag.nl/verslag2022/f/omoprijzen/omoprijzen-een-bijzondere-motiveringsprijs-voor-leerlingen
-          date_end: 'July 2022'
-          date_start: 'July 2022'
+          date_end: '2022-07-01'
+          date_start: '2022-07-01'
           description: 'Won the first prize of 1200 euro with project titled \"Optimizing Black Jack Strategies using Reinforcement Learning\"'
           organization: OMO
           organization_url: https://www.omojaarverslag.nl/verslag2022/f/omoprijzen/omoprijzen-een-bijzondere-motiveringsprijs-voor-leerlingen
