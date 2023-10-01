@@ -27,8 +27,9 @@ bio: ""
 # Interests to show in About widget
 interests:
   - Statistics and Probability
-  - Analysis and Topology
+  - Mathematical Analysis
   - Algorithms and Datastructures
+
 
 # Education to show in About widget
 education:
@@ -80,7 +81,7 @@ email: ''
 highlight_name: true
 ---
 
-I am a double degree BSc student in Mathematics and Computer Science at Radboud University. My academic interests include (Randomized) Algorithms and Datastructures, but I also like fundamental statistics, numerical methods and Analysis/Topology. At the moment, I am busy studying my two degrees and getting involved in research via my university's scientific honours programme. I am looking for a summer internship.
+I am a double BSc student in Mathematics and Computer Science at Radboud University. So far I have discovered my interest in Algorithms and Datastructures, but also fundamental statistics and probability, numerical methods and Mathematical Analysis. I also enjoy programming in Haskell. Next year, I want to follow electives on Fourier Theory, PDEs and Random Graphs, and Markov Chains too, if it fits into my schedule. But I want to finish Measure Theory and Topology before I do that. At the moment, I am busy studying my two degrees and getting involved in research via my university's scientific honours programme. 
 
-Mathematical puzzles have busied me since longer: I placed 16th in the national finale of the [Dutch Mathematical Olympiad](https://wiskundeolympiade.nl/docenten/info-in-english) (2021). My secondary school project on optimizing blackjack strategies using reinforcement learning was awarded the first prize in the [OMO PWS Contest](https://www.omojaarverslag.nl/verslag2022/f/omoprijzen/omoprijzen-een-bijzondere-motiveringsprijs-voor-leerlingen) (2022). This summer (2023), I was selected for the [Cornell, Maryland, Max Planck Pre-doctoral Research School](https://cmmrs.mpi-sws.org/). 
+Mathematical puzzles have busied me since longer: I placed 16th in the national finale of the [Dutch Mathematical Olympiad](https://wiskundeolympiade.nl/docenten/info-in-english) (2021). My secondary school project on optimizing blackjack strategies using reinforcement learning was awarded the first prize in the [OMO PWS Contest](https://www.omojaarverslag.nl/verslag2022/f/omoprijzen/omoprijzen-een-bijzondere-motiveringsprijs-voor-leerlingen) (2022). This summer (2023), I was selected for the [Cornell, Maryland, Max Planck Pre-doctoral Research School](https://cmmrs.mpi-sws.org/). I have discovered my interest for research and would like to spend the next summer in a research internship.
 {style="text-align: justify;"}
