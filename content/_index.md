@@ -18,43 +18,9 @@ sections:
 
 
 
-- block: accomplishments
-    content:
-      title: Extracurricular
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-      
-        - title: Attendee
-          company: Cornell, Maryland, Max Planck Pre-doctoral Research School
-          company_url: 'https://cmmrs.mpi-sws.org/'
-          company_logo: org-gc
-          location: 'MPI-SWS Saarbrucken'
-          date_start: '2023-08-06'
-          date_end: '2023-08-13'
-          description: |2-
-              Summer school hosted by MPI-SWS on state-of-the-art research in computer science.
-              Engagement in lectures and interaction with a highly international group of faculty and students.
-        - title: Radboud Honours Programme Science
-          company: Radboud University 
-          company_url: 'https://www.ru.nl/honoursacademy/bachelor/science/'
-          company_logo: ''
-          location: Nijmegen
-          date_start: '2023-08-31'
-          date_end: '2025-08-01'
-          description: Selection programme (25/year) for extracurricular engagement with real research. 
-    design:
-      columns: '2'
 
 
-
-- block: accomplishments #use the accomplishments format block
+- block: accomplishments # use the accomplishments format block for Extracurricular activities
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Extra&shy;curricular'
@@ -68,14 +34,27 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: ''
-          date_end: ''
-          date_start: 
-          description: 
-          organization: 
-          organization_url: 
-          title: 
-          url: 
-          
+          date_start: '2023-08-06'
+          date_end: '2023-08-13'
+          description: |2-
+            Summer school hosted by MPI-SWS on state-of-the-art research in computer science.
+            Engagement in lectures and interaction with a highly international group of faculty and students.
+          organization: Hosted by MPI-SWS, Saarbrücken
+          organization_url: https://cmmrs.mpi-sws.org/
+          title: Cornell, Maryland, Max Planck Pre-doctoral Research School
+          url: https://cmmrs.mpi-sws.org/
+  
+        - certificate_url: ''
+          date_start: '2023-08-31'
+          date_end: '2025-08-01'
+          description: |2-
+            2-year extracurricular programme (24 ec.) for extracurricular engagement with real research.
+            Selected, 25 participants per year.
+          organization: Radboud Honours Academy
+          organization_url: https://www.ru.nl/honoursacademy/bachelor/science/
+          title: Radboud Honours Programme Science
+          url: https://www.ru.nl/honoursacademy/bachelor/science/
+  
     design:
       columns: '2'
 
@@ -142,32 +121,33 @@ sections:
       title: Programming Languages 
       items:
         - name: C/C++
-          #description: 90%
+          description: |2-
+            'Basic command of C. Some knowledge of STL. Courses:
+              * Imperative Programming
+              * Hacking in C
+              * Operating System Concepts (see projects)'
           icon: c
           icon_pack: fa
         - name: Java
-          #description: 100%
+          description: 'Basic command. Some knowledge of Collections API and Threads API. Courses: Object-Oriented Programming'
           icon: java
           icon_pack: fab
-        - name: Python
-          #description: 100%
-          icon: python
-          icon_pack: fab
+        #- name: Python
+        #  #description: 100%
+        #  icon: python
+        #  icon_pack: fab
         - name: Haskell
           icon: arrow-right
           icon_pack: fas
+          description: 'Basic command. Courses: Functional Programming'
         - name: SQL
           icon: database
           icon_pack: fas
+          description: 'Basic command. Courses: Information Modelling and Databases'
         - name: R
           icon: r-project
           icon_pack: fab
-        - name: Git
-          icon: git
-          icon_pack: fab
-        - name: Bash
-          icon: terminal
-          icon_pack: fas
+          description: 'Basic command. Courses: Statistics (see projects)'
   
   
 
@@ -198,6 +178,8 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
+
+  # This is where I keep track of projects
   - block: portfolio
     id: projects
     content:
@@ -205,26 +187,14 @@ sections:
       filters:
         folders:
           - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+
+    
   - block: markdown
     content:
       title: Gallery
@@ -233,91 +203,77 @@ sections:
         {{< gallery album="demo" >}}
     design:
       columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+
+    
+  #- block: collection
+  #  id: featured
+  #  content:
+  #    title: Featured Publications
+  #    filters:
+  #      folders:
+  #        - publication
+  #      featured_only: true
+  #  design:
+  #    columns: '2'
+  #    view: card
+
+    
+  #- block: collection
+  #  content:
+  #    title: Recent Publications
+  #    text: |-
+  #      {{% callout note %}}
+  #      Quickly discover relevant content by [filtering publications](./publication/).
+  #      {{% /callout %}}
+  #    filters:
+  #      folders:
+  #        - publication
+  #      exclude_featured: true
+  #  design:
+  #    columns: '2'
+  #    view: citation
+
+    
+  #- block: collection
+  #  id: talks
+  #  content:
+  #    title: Recent & Upcoming Talks
+  #    filters:
+  #      folders:
+  #        - event
+  #  design:
+  #    columns: '2'
+  #    view: compact
+
+    
   - block: tag_cloud
     content:
       title: Popular Topics
     design:
       columns: '2'
+
+    
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        You can contact me via email.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      email: matthijs.muis@ru.nl
       contact_links:
-        - icon: twitter
+        - icon: instagram
           icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
+          name: Drawings
+          link: 'https://www.instagram.com/mathijsmuis/'
+        - icon: linkedin
           icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+          name: Networking
+          link: 'https://nl.linkedin.com/in/matthijs-muis'
+    
       # Automatically link email and phone or display as text?
-      autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      autolink: false
     design:
       columns: '2'
 ---
