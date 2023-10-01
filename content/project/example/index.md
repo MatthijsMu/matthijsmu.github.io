@@ -1,41 +1,117 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: RUN2223 CPU practical
+summary: |2-
+A CPU design in Digital. It is based on RUN2223 CPU, a 32-bit CPU designed specifically for the course Processors. 
+In the practical assignment for this course, our task was to create an implementation of the RUN2223 CPU in Digital, according to the specifications in the included manual.
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+date: '2023-05-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: The entire CPU module (viewed in Digital)
   focal_point: Smart
-
-links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+A CPU design in Digital. It is based on RUN2223 CPU, a 32-bit CPU designed specifically for the course Processors. In the practical assignment for this course, our task was to create an implementation of the RUN2223 CPU in Digital, according to the specifications in the included manual.
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+You can find the repository and a gallery of all beautiful components at the bottom of the article
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+## What we did
+Bram Weessies and I received:
+ 1. A manual which described, on a high level:
+    - a specification of the input and output interfaces of the RUN2223 CPU, which enables it to communicate with the rest of the computer
+    - a description of the instruction cycle of the CPU
+    - a general overview of the architecture of the CPU, and how it is divided into subcomponents
+    - a specification of the assembly language instructions, and the corresponding machine codes, of the RUN2223 CPU
+  Occasionally, the descriptions in this manual were deliberately incomplete. In these cases it was up to us to make sensible design choices.
+ 2. A "template", which was basically a zipped folder containing:
+    - .dig files for the components of the computer other than the CPU.
+    - a subdirectory containing empty files we should use to build the subcomponents of the processor in.
+    We were not allowed to change the structure of these files.
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+We did not get a "recipe" for designing the components, the only requirement and guideline was to build a processor out of "sensible" subcomponents that would implement the Instruction Set Architecture (ISA) of the RUN2223 CPU as given in the manual. So we designed:
+ - the ALU, with subcomponents for:
+    - Shiftleft, Rotateleft, Shiftright, Rotateright
+ - the Flag Register Bank (containing flag registers for conditions)
+ - the Register Bank
+ - the Instruction Decoder
+ - the Tester, which tested conditions based on the contents of the flag registers.
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+
+## The repository
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.html repository="MatthijsMu/processor_practical" %}
+</div>
+
+
+## How to set up
+To view the CPU design, you need to install the digital circuit design tool *Digital*. It is completely open-source and can be installed from the github page [here](https://github.com/hneemann/Digital).
+
+To simulate the computer circuit (of which our CPU is a major component) in Digital:
+ 0. Start up digital, which you can do by running *Digital.sh* as a program in the installation folder of Digital.
+ 1. Open *Computer.dig*.
+ 2. Load one of the included (machine code) programs, such as *clear_screen.hex* or (recommended), by going to the navbar of Digital and selecting *Edit -> Circuit Specific Settings -> Advanced tab* and ticking the box *Preload program memory at startup*, and then selecting one of the *.hex* files included in the folder *tools-and-examples*.
+ 3. Click the *white* play button with *no* additional markings (the other two play buttons are for testing or single-step simulation) in the top bar of Digital. This should start the simulation.
+
+To view subcomponents, you can simply open the other files, or select components and click "open circuit" in the component menu.
+
+
+## Gallery
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="featured.png" title="Full CPU" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The complete CPU, showing all submodules and their wiring.
+</div>
+
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="./processor-gallery/alu.png" title="ALU" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="./processor-gallery/decoder.png" title="Instruction Decoder" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: the ALU (Arithmetic Logic Unit). Right: the Instruction Decoder.
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="./processor-gallery/flagregbank.png" title="Flag Register Bank" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.html path="./processor-gallery/register-bank.png" title="Register Bank" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: the Flag Register Bank. Right: the Register Bank.
+</div>
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="./processor-gallery/tester.png" title="Tester" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The Tester.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="./processor-gallery/full_computer.png" title="Full Computer" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The entire computer, of which the RUN2223 CPU is the central component.
+</div>
