@@ -26,12 +26,12 @@ Bram Weessies and I received:
     - a general overview of the architecture of the CPU, and how it is divided into subcomponents
     - a specification of the assembly language instructions, and the corresponding machine codes, of the RUN2223 CPU
   Occasionally, the descriptions in this manual were deliberately incomplete. In these cases it was up to us to make sensible design choices.
- 2. A "template", which was basically a zipped folder containing:
-    - .dig files for the components of the computer other than the CPU.
+ 2. A template, which was a zipped folder containing:
+    - `.dig` files for the components of the computer other than the CPU.
     - a subdirectory containing empty files we should use to build the subcomponents of the processor in.
     We were not allowed to change the structure of these files.
 
-We did not get a "recipe" for designing the components, the only requirement and guideline was to build a processor out of "sensible" subcomponents that would implement the Instruction Set Architecture (ISA) of the RUN2223 CPU as given in the manual. So we designed:
+We did not get a clear plan for designing the components, the only requirement and guideline was to build a processor out of sensible subcomponents that would implement the Instruction Set Architecture (ISA) of the RUN2223 CPU as given in the manual. We designed:
  - the ALU, with subcomponents for:
     - Shiftleft, Rotateleft, Shiftright, Rotateright
  - the Flag Register Bank (containing flag registers for conditions)
