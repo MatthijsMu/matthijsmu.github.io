@@ -20,7 +20,7 @@ sections:
 
 
 
-- block: accomplishments # use the accomplishments format block for Extracurricular activities
+  - block: accomplishments # use the accomplishments format block for Extracurricular activities
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Extra&shy;curricular'
@@ -39,7 +39,8 @@ sections:
           description: |2-
             Summer school hosted by MPI-SWS on state-of-the-art research in computer science.
             Engagement in lectures and interaction with a highly international group of faculty and students.
-          organization: Hosted by MPI-SWS, Saarbrücken
+          organization: MPI-SWS Saarbrucken
+          organization_logo:
           organization_url: https://cmmrs.mpi-sws.org/
           title: Cornell, Maryland, Max Planck Pre-doctoral Research School
           url: https://cmmrs.mpi-sws.org/
@@ -54,7 +55,36 @@ sections:
           organization_url: https://www.ru.nl/honoursacademy/bachelor/science/
           title: Radboud Honours Programme Science
           url: https://www.ru.nl/honoursacademy/bachelor/science/
-  
+
+        - certificate_url: ''
+          date_start: '2020-08-01'
+          date_end: '2021-07-01'
+          description: |2-
+            In VWO-5, I took the courses:
+            * Calculus A (10/10, 6 ec.)
+            * Calculus B (10/10, 6 ec.)
+            Which is all the calculus a physics student at Radboud typically gets
+            (mathematicians will continue with Analysis 1, 2).
+          organization: Radboud Pre-University College of Science
+          organization_url: https://www.ru.nl/ise/outreach/pre-university-college-science/
+          title: Extracurricular BSc Mathematics courses while in secondary school.
+          url: https://www.ru.nl/ise/outreach/pre-university-college-science/
+
+        - certificate_url: ''
+          date_start: '2021-08-01'
+          date_end: '2022-07-01'
+          description: |2-
+            In VWO-6 (final year of secondary school), I took the courses:
+            * Group Theory (10/10, 6 ec.)
+            * Probability Theory (9.5/10, 3 ec.)
+            * Linear Algebra A (10/10, 6 ec.)
+            * Linear Algebra B (10/10, 6 ec.)
+            * Introduction Mathematics (i.e. constructing the real numbers) (10/10, 6 ec.)
+            Thereby completing my BSA (Binding Study Advice) of 39 ec. at Radboud before I had officially started my studies there.
+          organization: Radboud Pre-University College of Science
+          organization_url: https://www.ru.nl/ise/outreach/pre-university-college-science/
+          title: Extracurricular BSc Mathematics courses while in secondary school.
+          url: https://www.ru.nl/ise/outreach/pre-university-college-science/
     design:
       columns: '2'
 
@@ -86,6 +116,7 @@ sections:
           organization_url: https://wiskundeolympiade.nl/docenten/info-in-english
           title: 'Finalist, Dutch Mathematical Olympiad'
           url: https://wiskundeolympiade.nl/docenten/info-in-english
+
         - certificate_url: ''
           date_end: '2022-07-07'
           date_start: '2022-07-07'
@@ -97,13 +128,14 @@ sections:
           organization_url: https://www.omojaarverslag.nl/verslag2022/f/omoprijzen/omoprijzen-een-bijzondere-motiveringsprijs-voor-leerlingen
           title: 'VWO Final Project Award, 1st place'
           url: https://www.omojaarverslag.nl/verslag2022/f/omoprijzen/omoprijzen-een-bijzondere-motiveringsprijs-voor-leerlingen
+
         - certificate_url: ''
           date_end: '2019-03-21'
           date_start: '2019-03-21'
-          description: 'Our duo scored 130/150 points on the wizPROF variant of the Dutch Kangaroo contest.'
-          organization: 'W4 Kangaroo'
+          description: Our duo scored 130/150 points on the wizPROF variant of the Dutch Kangaroo contest.
+          organization: W4 Kangaroo
           organization_url: https://www.w4kangoeroe.nl/kangoeroe/
-          title: 'W4 Kangaroo Mathematics Contest'
+          title: W4 Kangaroo Mathematics Contest
           url: https://www.w4kangoeroe.nl/kangoeroe/
     design:
       columns: '2'
@@ -122,10 +154,10 @@ sections:
       items:
         - name: C/C++
           description: |2-
-            'Basic command of C. Some knowledge of STL. Courses:
+            Basic command of C. Some knowledge of STL. Courses:
               * Imperative Programming
               * Hacking in C
-              * Operating System Concepts (see projects)'
+              * Operating System Concepts (see project)
           icon: c
           icon_pack: fa
         - name: Java
@@ -147,7 +179,7 @@ sections:
         - name: R
           icon: r-project
           icon_pack: fab
-          description: 'Basic command. Courses: Statistics (see projects)'
+          description: 'Basic command. Courses: Statistics (see project)'
   
   
 
@@ -189,7 +221,7 @@ sections:
           - project
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
@@ -259,7 +291,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        You can contact me via email.
+        You can contact me via email, or get in touch via LinkedIn. I am sometimes active on Instagram, where I post some of my drawings.
       # Contact (add or remove contact options as necessary)
       email: matthijs.muis@ru.nl
       contact_links:
