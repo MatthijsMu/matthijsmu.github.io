@@ -116,7 +116,7 @@ generously with relevant tables, plots and histograms that it creates its own vi
 have a scroll through it, it&amp;rsquo;s very pleasant to the eye!&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>The images, draft versions and all other .tex/.log/.aux/.toc clutter is put away in the &lt;code>img&lt;/code> and &lt;code>texsrc&lt;/code> folders, respectively.&lt;/p>
+&lt;p>The images, draft versions and all other .tex/.log/.aux/.toc clutter can be found in the &lt;code>img&lt;/code> and &lt;code>texsrc&lt;/code> folders, respectively.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="gallery">Gallery&lt;/h2>
