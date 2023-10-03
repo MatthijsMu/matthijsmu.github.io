@@ -42,9 +42,7 @@ We did not get a clear plan for designing the components, the only requirement a
 
 ## The repository
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.html repository="MatthijsMu/processor_practical" %}
-</div>
+[On Github](https://github.com/MatthijsMu/processor_practical)
 
 
 ## How to set up
@@ -58,60 +56,7 @@ To simulate the computer circuit (of which our CPU is a major component) in Digi
 
 To view subcomponents, you can simply open the other files, or select components and click "open circuit" in the component menu.
 
-
 ## Gallery
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="featured.png" title="Full CPU" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The complete CPU, showing all submodules and their wiring.
-</div>
-
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="./processor-gallery/alu.png" title="ALU" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="./processor-gallery/decoder.png" title="Instruction Decoder" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: the ALU (Arithmetic Logic Unit). Right: the Instruction Decoder.
-</div>
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="./processor-gallery/flagregbank.png" title="Flag Register Bank" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="./processor-gallery/register-bank.png" title="Register Bank" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: the Flag Register Bank. Right: the Register Bank.
-</div>
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="./processor-gallery/tester.png" title="Tester" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The Tester.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="./processor-gallery/full_computer.png" title="Full Computer" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    The entire computer, of which the RUN2223 CPU is the central component.
-</div>
+        
+        
+{{< gallery album="processor_gallery" >}}

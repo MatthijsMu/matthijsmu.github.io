@@ -14,6 +14,57 @@ sections:
 
 
 
+  - block: experience
+    content:
+      title: Education
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many experience `items` below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: BSc. Mathematics
+          company: Radboud University
+          company_url: https://www.ru.nl/
+          company_logo: radboud_pre-university_college_of_science
+          location: Nijmegen
+          date_start: '2022-09-04'
+          date_end: ''
+          description: |2-
+              [Transcript of records](/static/uploads/transcript_math.pdf)
+        
+        - title: BSc. Computing Science
+          company: Radboud University
+          company_url: https://www.ru.nl/
+          company_logo: radboud_pre-university_college_of_science
+          location: Nijmegen
+          date_start: '2022-09-04'
+          date_end: ''
+          description: |2-
+              [Transcript of records](static/uploads/transcript_cs.pdf)
+
+        - title: VWO 
+          company: Mill-Hill College
+          company_url: https://www.millhillcollege.nl/
+          company_logo: mill_hill
+          location: Goirle
+          date_start: '2016-09-04'
+          date_end: '2022-08-31'
+          description: |2-
+              Courses: 
+              Physics (10/10), Chemistry (10/10), Biology (9/10), Mathematics B (10/10), Mathematics D (10/10), Latin (10/10), Spanish (10/10), English (9/10), Dutch (8/10).
+              Final Project: "Optimizing Black Jack strategies using Reinforcement Learning" (10/10)
+              Extracurricular: 
+              * Followed 39 ec of BSc Mathematics courses at Radboud during my final years. 
+              * Econasium Programme (Tilburg University, extracurricular programme featuring Statistics course) (9.6/10). 
+              * Fast-Lane English Programme (finish English curriculum in 5 years instead of 6).
+              * Extra course in Spanish.
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
 
 
 
@@ -183,6 +234,36 @@ sections:
   
   
 
+
+
+  # This is where I keep track of projects
+  - block: portfolio
+    id: projects
+    content:
+      title: Projects
+      filters:
+        folders:
+          - project
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
+
+    
+  - block: markdown
+    id: art
+    content:
+      title: Art
+      subtitle: I enjoy drawing in my free time. You can find my favorite results on [Google Photos](https://photos.app.goo.gl/3rUHNpn8BF1NBmEV6). You can find even more on my [instagram](https://www.instagram.com/matthijs_muis/) page.
+      text: |-
+        {{< gallery album="drawings_album" >}}
+    design:
+      columns: '1'
+
+
+
   - block: collection
     id: posts
     content:
@@ -211,30 +292,6 @@ sections:
       view: compact
       columns: '2'
 
-  # This is where I keep track of projects
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
-
-    
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
 
     
   #- block: collection
@@ -278,11 +335,11 @@ sections:
   #    view: compact
 
     
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+  #- block: tag_cloud
+  #  content:
+  #    title: Popular Topics
+  #  design:
+  #    columns: '2'
 
     
   - block: contact
@@ -298,7 +355,7 @@ sections:
         - icon: instagram
           icon_pack: fab
           name: Drawings
-          link: 'https://www.instagram.com/mathijsmuis/'
+          link: https://www.instagram.com/matthijs_muis/
         - icon: linkedin
           icon_pack: fab
           name: Networking

@@ -14,13 +14,7 @@ image:
 
 
 ## Availability
-The repository with report and `R` scripts is publicly available on Github:
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.html repository="MatthijsMu/statistiek-eindopdracht" %}
-</div>
-
----
+The repository with report and `R` scripts is publicly available on [Github](MatthijsMu/statistiek-eindopdracht)
 
 
 ## Outline of the Project
@@ -41,7 +35,6 @@ on the sector in which we make the prediction), we received a hint at a new test
 of the statistic was unknown, as was it unknown whether the statistic was actually pivotal. The report (chapter 5) also features a derivation of this fact. Then,
 a simulation of the null-distribution and the strong conclusion that residual variance is different among different sectors.
 
----
 
 ## What you'll Find in the Repo
  - The assignment is available both in **Dutch** as *Statistiek Opdracht (Dutch).pdf* and in **English** as *Statistics Assigment (English).pdf*. Note that DeepL did a poor job a translating the formulas from the original Dutch assignment statement, for that I recommend just looking up the formula in the original.
@@ -57,28 +50,6 @@ have a scroll through it, it's very pleasant to the eye!
  - The images, draft versions and all other .tex/.log/.aux/.toc clutter is put away in the `img` and `texsrc` folders, respectively.
 
 ## Gallery
+        
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="./regression-assigment-gallery/KSTestLog.png" title="KS-test on Residuals" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Histogram of a simulated KS-test-statistic to test for normality of the residuals. The coloured bars show actual values of the statistic for various fits. We can conclude that the purple model is very unlikely to have normally distributed residuals. This is the only model without log-transformed random variables, motivating the use of log-transforms
-</div>
-
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="./regression-assignment-gallery/NullTpart6.png" title="Special statistic T" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/regression-assignment-gallery/logsalesLogassets.png" title="Logsales plotted against Logassets per Sector" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Left: a special test statistic T (see assigment) for comparing variance of residuals between different levels of "sector". The test is rejected, as the computed value of T (purple line) is very unlikely to occur under the null hypothesis. <br>
-    Right: different single linear regression lines fit to the marginal data (logsales, logassets). Visually, different sectors lead to different intercepts. <br>
-    Conclusion: interaction variables between logassets and sector might be a sensible choice.
-</div>
+{{< gallery album="regression_gallery" >}}
