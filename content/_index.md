@@ -34,7 +34,8 @@ sections:
           date_start: '2022-09-04'
           date_end: ''
           description: |2-
-              [Transcript of records](/static/uploads/transcript_math.pdf)
+              {{% staticref "uploads/transcript.pdf" "newtab" %}}Transcript of Records.{{% /staticref %}}
+
         
         - title: BSc. Computing Science
           company: Radboud University
@@ -44,7 +45,7 @@ sections:
           date_start: '2022-09-04'
           date_end: ''
           description: |2-
-              [Transcript of records](static/uploads/transcript_cs.pdf)
+              {{% staticref "uploads/transcript.pdf" "newtab" %}}Transcript of Records.{{% /staticref %}}
 
         - title: VWO 
           company: Mill-Hill College
@@ -57,6 +58,7 @@ sections:
               Courses: 
               Physics (10/10), Chemistry (10/10), Biology (9/10), Mathematics B (10/10), Mathematics D (10/10), Latin (10/10), Spanish (10/10), English (9/10), Dutch (8/10).
               Final Project: "Optimizing Black Jack strategies using Reinforcement Learning" (10/10)
+
               Extracurricular: 
               * Followed 39 ec of BSc Mathematics courses at Radboud during my final years. 
               * Econasium Programme (Tilburg University, extracurricular programme featuring Statistics course) (9.6/10). 
@@ -354,11 +356,11 @@ sections:
       contact_links:
         - icon: instagram
           icon_pack: fab
-          name: Drawings
+          name: Instagram
           link: https://www.instagram.com/matthijs_muis/
         - icon: linkedin
           icon_pack: fab
-          name: Networking
+          name: LinkedIn
           link: 'https://nl.linkedin.com/in/matthijs-muis'
     
       # Automatically link email and phone or display as text?
