@@ -47,7 +47,7 @@ rather spend my time learning some new interesting topics in regression analysis
 generously with relevant tables, plots and histograms that it creates its own visual story. You may even be able to infer from the context what is written there in Dutch. In general, I invite you to open it and
 have a scroll through it, it's very pleasant to the eye!
 
- - The images, draft versions and all other .tex/.log/.aux/.toc clutter is put away in the `img` and `texsrc` folders, respectively.
+ - The images, draft versions and all other .tex/.log/.aux/.toc clutter can be found in the `img` and `texsrc` folders, respectively.
 
 ## Gallery
         
