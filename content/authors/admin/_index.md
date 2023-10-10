@@ -36,10 +36,10 @@ education:
   courses:
     - course: BSc in Mathematics
       institution: Radboud University
-      year: 2025
+      year: Expected 2025
     - course: BSs in Compurter Science 
       institution: Radboud University
-      year: 2025
+      year: Expected 2025
     - course: VWO (Pre-university education)
       institution: Mill-Hill College
       year: 2022

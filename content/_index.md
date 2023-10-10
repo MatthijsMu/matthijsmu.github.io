@@ -100,9 +100,9 @@ sections:
   
         - certificate_url: ''
           date_start: '2023-08-31'
-          date_end: '2025-08-01'
+          date_end: ''
           description: |2-
-            2-year extracurricular programme (24 ec.) for extracurricular engagement with real research.
+            Two-year extracurricular programme (24 ec.) for extracurricular engagement with real research.
             Selected, 25 participants per year.
           organization: Radboud Honours Academy
           organization_url: https://www.ru.nl/honoursacademy/bachelor/science/
