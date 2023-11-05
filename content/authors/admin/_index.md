@@ -37,7 +37,7 @@ education:
     - course: BSc in Mathematics
       institution: Radboud University
       year: Expected 2025
-    - course: BSs in Compurter Science 
+    - course: BSc in Computer Science 
       institution: Radboud University
       year: Expected 2025
     - course: VWO (Pre-university education)

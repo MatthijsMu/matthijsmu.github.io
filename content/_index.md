@@ -113,11 +113,9 @@ sections:
           date_start: '2020-08-01'
           date_end: '2021-07-01'
           description: |2-
-            In VWO-5, I took the courses:
+            In VWO-5, I took the semester courses:
             * Calculus A (10/10, 6 ec.)
-            * Calculus B (10/10, 6 ec.)
-            Which is all the calculus a physics student at Radboud typically gets
-            (mathematicians will continue with Analysis 1, 2).
+            * Calculus B (10/10, 6 ec.) 
           organization: Radboud Pre-University College of Science
           organization_url: https://www.ru.nl/ise/outreach/pre-university-college-science/
           title: Extracurricular BSc Mathematics courses while in secondary school.
@@ -127,13 +125,13 @@ sections:
           date_start: '2021-08-01'
           date_end: '2022-07-01'
           description: |2-
-            In VWO-6 (final year of secondary school), I took the courses:
+            In VWO-6 (final year of secondary school), I took the below courses, completing my BSA (Binding Study Advice) of 39 ec. at Radboud before I had officially started my studies there.
             * Group Theory (10/10, 6 ec.)
             * Probability Theory (9.5/10, 3 ec.)
             * Linear Algebra A (10/10, 6 ec.)
             * Linear Algebra B (10/10, 6 ec.)
-            * Introduction Mathematics (i.e. constructing the real numbers) (10/10, 6 ec.)
-            Thereby completing my BSA (Binding Study Advice) of 39 ec. at Radboud before I had officially started my studies there.
+            * Introduction Mathematics (i.e. sets, proofs, Peano Arithmetic and Dedekind cuts) (10/10, 6 ec.)
+            
           organization: Radboud Pre-University College of Science
           organization_url: https://www.ru.nl/ise/outreach/pre-university-college-science/
           title: Extracurricular BSc Mathematics courses while in secondary school.
@@ -195,6 +193,47 @@ sections:
 
 
 
+  # This is where I keep track of projects
+  - block: portfolio
+    id: projects
+    content:
+      title: Projects
+      filters:
+        folders:
+          - project
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
+
+    # This is where I keep track of summaries
+  - block: portfolio
+    id: summaries
+    content:
+      title: Course Summaries
+      text: I keep a list of my summaries made for coursework at university. I only publish notes that are of sufficient quality to be read and used by others. If you have annotations, please let me know.
+      filters:
+        folders:
+          - summaries
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
+
+    
+  - block: markdown
+    id: art
+    content:
+      title: Art
+      subtitle: I enjoy drawing in my free time. You can find my favorite results on [Google Photos](https://photos.app.goo.gl/3rUHNpn8BF1NBmEV6). You can find even more on my [instagram](https://www.instagram.com/matthijs_muis/) page.
+      text: |-
+        {{< gallery album="drawings_album" >}}
+    design:
+      columns: '1'
 
 
 
@@ -238,31 +277,6 @@ sections:
 
 
 
-  # This is where I keep track of projects
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
-
-    
-  - block: markdown
-    id: art
-    content:
-      title: Art
-      subtitle: I enjoy drawing in my free time. You can find my favorite results on [Google Photos](https://photos.app.goo.gl/3rUHNpn8BF1NBmEV6). You can find even more on my [instagram](https://www.instagram.com/matthijs_muis/) page.
-      text: |-
-        {{< gallery album="drawings_album" >}}
-    design:
-      columns: '1'
 
 
 
