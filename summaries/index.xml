@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries | Matthijs Muis</title><link>https://matthijsmu.github.io/summaries/</link><atom:link href="https://matthijsmu.github.io/summaries/index.xml" rel="self" type="application/rss+xml"/><description>Summaries</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Dec 2022 00:00:00 +0000</lastBuildDate><image><url>https://matthijsmu.github.io/media/icon_hue2bb4818897881794f7b3516e4826efd_15175_512x512_fill_lanczos_center_3.png</url><title>Summaries</title><link>https://matthijsmu.github.io/summaries/</link></image><item><title>Group Theory</title><link>https://matthijsmu.github.io/summaries/group_theory/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/group_theory/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
+&lt;ol>
+&lt;li>&lt;u>&lt;a href="GroupsChapter1.pdf">Integers&lt;/a>&lt;/u>:Unique division with remainder of whole numbers, various lemmas on prime factorization, Euclidian Algorithm and Generalized Euclidian Algorithm.&lt;/li>
+&lt;li>&lt;u>&lt;a href="GroupsChapter2.pdf">Groups&lt;/a>&lt;/u>:Definition of monoid and group, examples. Left-axioms, right-axioms, their equivalence.&lt;/li>
+&lt;li>&lt;u>&lt;a href="GroupsChapter3.pdf">Subgroups, Homomorphisms, Direct Products&lt;/a>&lt;/u>: with Chinese remainder theorem for integers.&lt;/li>
+&lt;li>&lt;u>&lt;a href="GroupsChapter4_5.pdf">Permutation Groups&lt;/a>&lt;/u>: cycle factorization, sign, Cayley&amp;rsquo;s theorem. Alternating groups&lt;/li>
+&lt;li>&lt;u>&lt;a href="GroupsChapter4_5.pdf">Generators, Order, Index&lt;/a>&lt;/u>: cosets, Lagrange&amp;rsquo;s theorem, totient function &amp;amp; Euler&amp;rsquo;s theorem of prime congruences, Fermat&amp;rsquo;s small theorem as consequence.&lt;/li>
+&lt;li>&lt;u>&lt;a href="GroupsChapter6.pdf">Normal Subgroups, Factor Groups&lt;/a>&lt;/u>: e.g. Commutator subgroup and abelian factor group, characterization in terms of kernels of homomorphisms. Alternating groups as commutator subgroups.&lt;/li>
+&lt;li>&lt;u>&lt;a href="GroupsChapter7.pdf">Homomorphism and Isomorphism Theorems&lt;/a>&lt;/u>: with as corrolary the characterization of normal subgroups of factor groups.&lt;/li>
+&lt;li>&lt;u>&lt;a href="GroupsChapter8.pdf">Group Actions&lt;/a>&lt;/u>: stabilisers, orbits, groups of prime order. Centralizer. Transitive actions.&lt;/li>
+&lt;li>&lt;u>&lt;a href="GroupsChapter9.pdf">Automorphisms&lt;/a>&lt;/u>: the automorphism group, inner automorphisms, characteristic subgroups. The semi-direct product.&lt;/li>
+&lt;/ol></description></item><item><title>Rings and Fields</title><link>https://matthijsmu.github.io/summaries/rings_fields/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/rings_fields/</guid><description>&lt;h3 id="part-1-rings">Part 1: Rings&lt;/h3>
+&lt;ol>
+&lt;li>&lt;u>&lt;a href="RingsChapter1.pdf">Definition, examples, elementary properties&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="RingsChapter2.pdf">Ringhomomorphisms and Ideals&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="RingsChapter3.pdf">Zeroes of Polynomials&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="RingsChapter4.pdf">Prime Ideals and Maximal Ideals&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="RingsChapter5.pdf">Principal Ideal Domains, Unique Factorization Domains&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="RingsChapter6_7.pdf">Gaussian Integers, Euclidian Division Rings&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="RingsChapter6_7.pdf">Symmetric Polynomials&lt;/a>&lt;/u>: in the same document as Chapter 6.&lt;/li>
+&lt;/ol>
+&lt;h3 id="part-2-fields">Part 2: Fields&lt;/h3>
+&lt;ol start="8">
+&lt;li>&lt;u>&lt;a href="FieldsChapter8.pdf">Prime Fields and Characteristic; Linear Algebra in Fields&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="FieldsChapter9.pdf">Quadratic Extensions&lt;/a>&lt;/u> (Fun fact: in Dutch this is a &amp;ldquo;enkelvoudige uitbreiding&amp;rdquo;, which means &amp;ldquo;single extension&amp;rdquo; if you translate it literally.)&lt;/li>
+&lt;li>&lt;u>&lt;a href="FieldsChapter10.pdf">Finite and Algebraic Extensions&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="FieldsChapter11.pdf">Splitting Fields&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="FieldsChapter12.pdf">Finite Fields&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="FieldsChapter13.pdf">Algebraically Closed Fields&lt;/a>&lt;/u>&lt;/li>
+&lt;/ol></description></item><item><title>Analysis 1 (Real Analysis)</title><link>https://matthijsmu.github.io/summaries/analysis1/</link><pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/analysis1/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
+&lt;ol>
+&lt;li>Introduction and Motivation (ommitted).&lt;/li>
+&lt;li>&lt;u>&lt;a href="AnalysisChapter2.pdf">Prerequisites&lt;/a>&lt;/u>: Real numbers and supremum property.&lt;/li>
+&lt;li>&lt;u>&lt;a href="AnalysisChapter3.pdf">Sequences&lt;/a>&lt;/u>: convergence of ~, Cauchy ~, limsup, liminf, Bolzano-Weierstrass.&lt;/li>
+&lt;li>&lt;u>&lt;a href="AnalysisChapter4.pdf">Topology of the real line&lt;/a>&lt;/u>: open, closed sets. Compactness and sequential compactness in R.&lt;/li>
+&lt;li>&lt;u>&lt;a href="AnalysisChapter5.pdf">Real-valued functions&lt;/a>&lt;/u>: (uniform) continuity, sequences of functions and their convergence. Dirichlet&amp;rsquo;s theorem.&lt;/li>
+&lt;li>&lt;u>&lt;a href="AnalysisChapter6.pdf">Differentiability&lt;/a>&lt;/u>: characterization via Newton-approximation. Classical derivation of product and chain rule. Taylor approximation, Lagrange remainder.&lt;/li>
+&lt;li>&lt;u>&lt;a href="AnalysisChapter7.pdf">The Riemann integral&lt;/a>&lt;/u>: Riemann sums, formal derivation of all properties of the Riemann integral. Fundamental theorem of Calculus. Integrability of uniform limits of function sequences. Lagrange remainder in integral form.&lt;/li>
+&lt;li>&lt;u>&lt;a href="AnalysisChapter8.pdf">Series&lt;/a>&lt;/u>: definition of convergence. Convergence criteria of Cauchy, d&amp;rsquo;Alembert, and root-criterium. Differentiability and integrability of ~: Weierstrass&amp;rsquo; M-test. Abel&amp;rsquo;s theorem.&lt;/li>
+&lt;/ol></description></item><item><title>Game Theory</title><link>https://matthijsmu.github.io/summaries/game_theory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/game_theory/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;u>&lt;a href="tuGames.pdf">Chapter 1-4: Cooperative Game Theory.&lt;/a>&lt;/u>&lt;/p>
+&lt;ol>
+&lt;li>TU games, distributions, imputations, additive games, simple games, monotonous simple games, core, characterization using veto-players and dictators.&lt;/li>
+&lt;li>Shapley value (a distribution), TU games as a linear space. Axiomatic characterization of Shapley value in terms of Additivity, Null-player property, Symmetry and Efficiency.&lt;/li>
+&lt;li>Proof of uniqueness of the Shapley value for this characterization using unanimity games as a basis for the space of TU games. Convex TU games, characterization of their core as the convex hull of marginal vectors. Shapley value for monotonous simple games in terms of swings; motivation and definition of the normalized Banzhaf-Coleman index.&lt;/li>
+&lt;li>Bankrupcy games, distribution rules. Nucleolus and unicity of its single element (proof omitted). The nucleolus underpins a distribution rule found already in the Talmud.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;u>&lt;a href="nonCoopGames.pdf">Chapter 5-6: Non-Cooperative Game Theory.&lt;/a>&lt;/u>&lt;/p>
+&lt;ol start="5">
+&lt;li>(Zero sum) matrix games, mixed strategies. Maximin and minimax strategies. Matrix lemma of alternatives and from this the Minimax Theorem.&lt;/li>
+&lt;li>Bimatrix games, best responses, Nash equilibria.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
