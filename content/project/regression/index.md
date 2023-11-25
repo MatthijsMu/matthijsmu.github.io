@@ -5,7 +5,7 @@ tags:
 date: "2022-12-12T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ''
+external_link: 'https://github.com/MatthijsMu/statistiek-eindopdracht'
 
 image:
   caption: Histogram of a simulated KS-test-statistic to test for normality of the residuals.
