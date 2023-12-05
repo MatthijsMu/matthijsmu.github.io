@@ -102,8 +102,11 @@ sections:
           date_start: '2023-08-31'
           date_end: ''
           description: |2-
-            Two-year extracurricular programme (24 ec.) for extracurricular engagement with real research.
-            Selected, 25 participants per year.
+            Two-year extracurricular programme (24 ec.).
+            Selection programme, 25 participants per year.
+            Involvement with real research; 
+            expand bachelor thesis by 12 ec. and do part of it abroad
+            
           organization: Radboud Honours Academy
           organization_url: https://www.ru.nl/honoursacademy/bachelor/science/
           title: Radboud Honours Programme Science
@@ -113,7 +116,8 @@ sections:
           date_start: '2020-08-01'
           date_end: '2021-07-01'
           description: |2-
-            In VWO-5, I took the semester courses:
+            In VWO-5 (penultimate year of secondary school);
+            Completed 12 ec. at Radboud before official enrollment.
             * Calculus A (10/10, 6 ec.)
             * Calculus B (10/10, 6 ec.) 
           organization: Radboud Pre-University College of Science
@@ -125,7 +129,8 @@ sections:
           date_start: '2021-08-01'
           date_end: '2022-07-01'
           description: |2-
-            In VWO-6 (final year of secondary school), I took the below courses, completing my BSA (Binding Study Advice) of 39 ec. at Radboud before I had officially started my studies there.
+            In VWO-6 (final year of secondary school);
+            Completed 39 ec. at Radboud before official enrollment.
             * Group Theory (10/10, 6 ec.)
             * Probability Theory (9.5/10, 3 ec.)
             * Linear Algebra A (10/10, 6 ec.)
@@ -159,6 +164,19 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - certificate_url: ''
+          date_start: '2023-11-27'
+          date_end: '2023-11-27'
+          description: |2-
+            Awarded for outstanding grades among all first year BCs Computer Science
+            students in the Netherlands.
+            Prize of &euro; 500.
+          organization: Royal Dutch Society of Sciences
+          organization_logo:
+          organization_url: https://khmw.nl/khmw-jong-talent-prijzen-khmw-young-talent-awards/
+          title: KHMW Young talent award
+          url: https://khmw.nl/khmw-jong-talent-prijzen-khmw-young-talent-awards/
+
         - certificate_url: ''
           date_end: '2021-09-17'
           date_start: '2021-09-17'
