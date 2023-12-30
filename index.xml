@@ -81,7 +81,24 @@ We were not allowed to change the structure of these files.&lt;/li>
 &lt;img src="https://matthijsmu.github.io/media/albums/processor_gallery/tester_huc7187422e0788063fcc2dd293605b5b4_116582_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="tester.png" width="750" height="369">
 &lt;/a>
 &lt;/div>
-&lt;/div></description></item><item><title>Group Theory</title><link>https://matthijsmu.github.io/summaries/group_theory/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/group_theory/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
+&lt;/div></description></item><item><title>Combinatorial Group Theory</title><link>https://matthijsmu.github.io/summaries/combinatorial_group_theory/</link><pubDate>Mon, 12 Dec 2022 00:00:01 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/combinatorial_group_theory/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;u>&lt;a href="CGT_Cayley_Graph_Ch1.pdf">1. Cayley Graph of Groups&lt;/a>&lt;/u>:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;u>&lt;a href="CGT_Free_Groups_Ch2.pdf">2. Free Groups&lt;/a>&lt;/u>:&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;u>&lt;a href="CGT_Actions_on_Graphs_Ch3.pdf">3.1 Group Actions on Trees, Fundamental Groups&lt;/a>&lt;/u>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;u>&lt;a href="CGT_Trees_Nielsen_Schreier_Ch3.pdf">3.2 Free Actions, Characterization of Free Groups, Nielsen-Schreier Theorem&lt;/a>&lt;/u>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;u>&lt;a href="CGT_Presentations_Fundamental_Knots_Ch4.pdf">4. Group Presentations. Knot and Link Groups, Wirtinger and Dehn Presentation&lt;/a>&lt;/u>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Group Theory</title><link>https://matthijsmu.github.io/summaries/group_theory/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/group_theory/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
 &lt;ol>
 &lt;li>&lt;u>&lt;a href="GroupsChapter1.pdf">Integers&lt;/a>&lt;/u>:Unique division with remainder of whole numbers, various lemmas on prime factorization, Euclidian Algorithm and Generalized Euclidian Algorithm.&lt;/li>
 &lt;li>&lt;u>&lt;a href="GroupsChapter2.pdf">Groups&lt;/a>&lt;/u>:Definition of monoid and group, examples. Left-axioms, right-axioms, their equivalence.&lt;/li>
