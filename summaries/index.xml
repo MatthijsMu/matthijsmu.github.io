@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries | Matthijs Muis</title><link>https://matthijsmu.github.io/summaries/</link><atom:link href="https://matthijsmu.github.io/summaries/index.xml" rel="self" type="application/rss+xml"/><description>Summaries</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Dec 2022 00:00:01 +0000</lastBuildDate><image><url>https://matthijsmu.github.io/media/icon_hue2bb4818897881794f7b3516e4826efd_15175_512x512_fill_lanczos_center_3.png</url><title>Summaries</title><link>https://matthijsmu.github.io/summaries/</link></image><item><title>Combinatorial Group Theory</title><link>https://matthijsmu.github.io/summaries/combinatorial_group_theory/</link><pubDate>Mon, 12 Dec 2022 00:00:01 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/combinatorial_group_theory/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Summaries | Matthijs Muis</title><link>https://matthijsmu.github.io/summaries/</link><atom:link href="https://matthijsmu.github.io/summaries/index.xml" rel="self" type="application/rss+xml"/><description>Summaries</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://matthijsmu.github.io/media/icon_hue2bb4818897881794f7b3516e4826efd_15175_512x512_fill_lanczos_center_3.png</url><title>Summaries</title><link>https://matthijsmu.github.io/summaries/</link></image><item><title>Analysis 2</title><link>https://matthijsmu.github.io/summaries/analysis2/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/analysis2/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
+&lt;ol>
+&lt;li>&lt;u>&lt;a href="Analysis_2_Ch1.pdf">Structures on Spaces&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="Analysis_2_Ch2.pdf">Compactness&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="Analysis_2_Ch3.pdf">Continuous Functions&lt;/a>&lt;/u>&lt;/li>
+&lt;/ol></description></item><item><title>Combinatorial Group Theory</title><link>https://matthijsmu.github.io/summaries/combinatorial_group_theory/</link><pubDate>Mon, 12 Dec 2022 00:00:01 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/combinatorial_group_theory/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;u>&lt;a href="CGT_Cayley_Graph_Ch1.pdf">1. Cayley Graph of Groups&lt;/a>&lt;/u>:&lt;/p>
@@ -44,7 +49,7 @@
 &lt;li>&lt;u>&lt;a href="FieldsChapter11.pdf">Splitting Fields&lt;/a>&lt;/u>&lt;/li>
 &lt;li>&lt;u>&lt;a href="FieldsChapter12.pdf">Finite Fields&lt;/a>&lt;/u>&lt;/li>
 &lt;li>&lt;u>&lt;a href="FieldsChapter13.pdf">Algebraically Closed Fields&lt;/a>&lt;/u>&lt;/li>
-&lt;/ol></description></item><item><title>Analysis 1 (Real Analysis)</title><link>https://matthijsmu.github.io/summaries/analysis1/</link><pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/analysis1/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
+&lt;/ol></description></item><item><title>Analysis 1</title><link>https://matthijsmu.github.io/summaries/analysis1/</link><pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/analysis1/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
 &lt;ol>
 &lt;li>Introduction and Motivation (ommitted).&lt;/li>
 &lt;li>&lt;u>&lt;a href="AnalysisChapter2.pdf">Prerequisites&lt;/a>&lt;/u>: Real numbers and supremum property.&lt;/li>
