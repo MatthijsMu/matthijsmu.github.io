@@ -17,3 +17,4 @@ image:
 1. <u>[Structures on Spaces](Analysis_2_Ch1.pdf)</u>
 2. <u>[Compactness](Analysis_2_Ch2.pdf)</u>
 3. <u>[Continuous Functions](Analysis_2_Ch3.pdf)</u>
+4. <u>[Spaces of Functions](Analysis_2_Ch4.pdf)</u>
