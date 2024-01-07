@@ -18,3 +18,5 @@ image:
 2. <u>[Compactness](Analysis_2_Ch2.pdf)</u>
 3. <u>[Continuous Functions](Analysis_2_Ch3.pdf)</u>
 4. <u>[Spaces of Functions](Analysis_2_Ch4.pdf)</u>
+5. <u>[Differentiability](Analysis_2_Ch5.pdf)</u>
+6. <u>[Tangent Cone and Differentiability](Analysis_2_Ch6.pdf)</u>
