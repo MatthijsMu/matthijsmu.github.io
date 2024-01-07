@@ -4,6 +4,8 @@
 &lt;li>&lt;u>&lt;a href="Analysis_2_Ch2.pdf">Compactness&lt;/a>&lt;/u>&lt;/li>
 &lt;li>&lt;u>&lt;a href="Analysis_2_Ch3.pdf">Continuous Functions&lt;/a>&lt;/u>&lt;/li>
 &lt;li>&lt;u>&lt;a href="Analysis_2_Ch4.pdf">Spaces of Functions&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="Analysis_2_Ch5.pdf">Differentiability&lt;/a>&lt;/u>&lt;/li>
+&lt;li>&lt;u>&lt;a href="Analysis_2_Ch6.pdf">Tangent Cone and Differentiability&lt;/a>&lt;/u>&lt;/li>
 &lt;/ol></description></item><item><title>RUN2223 CPU practical</title><link>https://matthijsmu.github.io/project/runcpu/</link><pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/project/runcpu/</guid><description>&lt;p>A CPU design in Digital. It is based on RUN2223 CPU, a 32-bit CPU designed specifically for the course Processors. In the practical assignment for this course, our task was to create an implementation of the RUN2223 CPU in Digital, according to the specifications in the included manual.&lt;/p>
 &lt;p>You can find the repository and a gallery of all beautiful components at the bottom of the article&lt;/p>
 &lt;h2 id="what-we-did">What we did&lt;/h2>
