@@ -1,7 +1,7 @@
 ---
 title: Rings and Fields
 summary: |-
-  Summary of the semester course Rings and Fields at Radboud University. Part 1 treats Rings (with 1), in particular their Ideals, homomorphisms and relation with the possibility of division (giving Euclidian Division Rings, UFDs, PIDs and related theorems about their polynomial Rings), and ends with Symmetric Polynomials. Part 3 treats Fields, especially extensions, closures (splitting fields) and finite fields. 
+  Summary of the semester course Rings and Fields at Radboud University. Part 1 treats Rings (with 1), in particular their Ideals, homomorphisms, UFDs, PIDs, ends with Symmetric Polynomials. Part 2 treats Fields, especially extensions, closures (splitting fields) and finite fields. 
 tags:
 date: "2022-12-12T00:00:00Z"
 show_date: false

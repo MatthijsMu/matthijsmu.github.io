@@ -1,6 +1,6 @@
 ---
 title: Linear Regression (Statistics Final Project)
-summary: A final practical on regression analysis that I did as part of the course Statistics. We compare various linear models for explaining the market value of a subset of 52 companies from the Forbes500 dataset of 1986.
+summary: A final practical on regression analysis, for the course Statistics. We compare various linear models for explaining the market value of 52 companies from the Forbes500 1986 dataset.
 tags:
 date: "2022-12-12T00:00:00Z"
 
@@ -8,7 +8,7 @@ date: "2022-12-12T00:00:00Z"
 external_link: 'https://github.com/MatthijsMu/statistiek-eindopdracht'
 
 image:
-  caption: Histogram of a simulated KS-test-statistic to test for normality of the residuals.
+  caption: Histogram of a simulated KS-test-statistic to test for normality of the residuals. Visualizes the Liliefors-test.
   focal_point: Smart
 ---
 

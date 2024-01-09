@@ -1,7 +1,7 @@
 ---
 title: Group Theory
 summary: |-
-  Summary of the semester course in Groups at Radboud University. Starts with some number theory, ends at Automorphism groups and characteristic subgroups. If followed this course in my final year of high school via Radboud's Pre-University College of Science.
+  Summary of the semester course in Groups at Radboud University. From some number theory, to automorphism groups and characteristic subgroups. If followed this course in my final year of high school via Radboud's Pre-University College of Science.
 tags:
 date: "2022-12-12T00:00:00Z"
 show_date: false

@@ -1,6 +1,6 @@
 ---
 title: Minimum chain partitioning (using Hopcroft-Karp)
-summary: One of two practical assignments for the course Algorithms and Datastructures. A variant of the box-stacking problem is given, which essentially boils down to a Dilworth chain partitioning problem. This can be reformulated as a bipartite matching problem, and efficiently solved in O(n^2.5) time where n is the size of the poset. 
+summary: Efficient algorithm for a variant of the Box-Stacking problem (essentially a Dilworth chain partitioning problem). Constructs a bipartite matching and solves this with the Hopcroft-Karp Algorithm.
 tags:
 date: "2022-12-12T00:00:00Z"
 
@@ -8,7 +8,7 @@ date: "2022-12-12T00:00:00Z"
 external_link: 'https://github.com/MatthijsMu/Min-Chain-Partitioning'
 
 image:
-  caption: An illustration from the explanation of HopCroft-Karp
+  caption: An illustration from the explanation of HopCroft-Karp.
   focal_point: Smart
 ---
 

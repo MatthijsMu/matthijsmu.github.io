@@ -1,6 +1,6 @@
 ---
 title: Game Theory
-summary: "Summary for the course Game Theory at Radboud University: TU games, Matrix games, Bimatrix games."
+summary: "Summary for the course Game Theory at Radboud University: Transferrable Utility games, Matrix games, Bimatrix games."
 tags:
 date: "2023-1-1"
 show_date: false

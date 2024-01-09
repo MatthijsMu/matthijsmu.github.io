@@ -1,12 +1,7 @@
 ---
 title: Combinatorial Group Theory
 summary: |-
-  Summary of the course Combinatorial Group Theory at Radboud University. Considers Cayley Graphs,
-  group actions on graphs, free groups, free actions, fundamental groups for graph (with a digression to topological fundamental groups), 
-  a characterization of free groups via free actions on trees
-  and as a corrollary the theorem of Nielsen-Schreier and how to find generators of subgroups. 
-  Finally treats presentations for various groups (Lamlighter, Heisenberg, Baumslag-Solitar), Knot and link groups and their Dehn and
-  Wirtinger presentations. I followed this course in my first year, as a 2nd year's elective.
+  Summary of the course Combinatorial Group Theory at Radboud University. Considers Cayley graphs, free groups, fundamental groups, actions on graphs, Nielsen-Schreier, presentations and knot/link groups. I followed this course in my first year, as a 2nd year's elective.
 tags:
 date: "2022-12-12T00:00:01Z"
 show_date: false

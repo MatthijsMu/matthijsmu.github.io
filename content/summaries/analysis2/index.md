@@ -1,7 +1,7 @@
 ---
 title: Analysis 2
 summary: |-
-  Summary in LaTeX of the semester course Analysis 2 at Radboud University. General metric and topological spaces, function spaces and their compactness. Diffeomorphisms, implicit function theorem, manifolds and constrained optimization. Lebesgue measure and integration.
+  Summary in LaTeX of the semester course Analysis 2 at Radboud University. From metric and topological spaces through diffeomorphisms and manifolds the Lebesgue integral and its limiting theorems.
 tags:
 date: "2023-10-10"
 show_date: false

@@ -1,8 +1,8 @@
 ---
-title: Water Pumping Problem (Graph Reduction + Dynamic Programming + Branch-and-Bound)
-summary: One of two practical assignments for the course Algorithms and Datastructures. A dynamic graph problem is presented, where one has to find a route through a graph, turning on waterpumps at some of the intermediate vertices, with the goal to maximize the total amount of water pumped out of a Polder at the end of a given timelimit. We propose an algorithm with a graph reduction phase (using Dijkstra) and a dynamic programming phase on the reduced graph, which is further optimized using a branch-and-bound mechanism. The code is well-documented, I encourage you to have a look.
+title: Water Pumping Problem 
+summary: Graph Reduction + Dynamic Programming + Branch-and-Bound
 tags:
-date: "2022-12-12T00:00:00Z"
+date: "2022-12-12T00:00:03Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: 'https://github.com/MatthijsMu/Water-Pumping-Graph-Problem'
@@ -11,6 +11,7 @@ image:
   caption: Illustration how the original problem's graph is reduced to a complete graph on only the waterpump-vertices
   focal_point: Smart
 ---
+
 
 
 ### Overview

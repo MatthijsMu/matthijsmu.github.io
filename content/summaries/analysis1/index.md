@@ -1,7 +1,7 @@
 ---
 title: Analysis 1 
 summary: |-
-  Summary of the semester course Analysis 1 at Radboud University. Very similar in content to Garling's A Course in Mathematical Analysis, Volume 1, except that we skip the constructions of the real numbers (already did that in Introduction Mathematics) and treat differentiability a bit more generally than Garling does. Series come in Chapter 8, Compared to Garling's Chapter 3.
+  Summary of the semester course Analysis 1 at Radboud University. Very similar in content to Garling's A Course in Mathematical Analysis, Volume 1.
 tags:
 date: "2022-10-10"
 show_date: false
