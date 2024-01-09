@@ -97,7 +97,48 @@ We were not allowed to change the structure of these files.&lt;/li>
 &lt;img src="https://matthijsmu.github.io/media/albums/processor_gallery/tester_huc7187422e0788063fcc2dd293605b5b4_116582_750x750_fit_q75_h2_lanczos_3.webp" loading="lazy" alt="tester.png" width="750" height="369">
 &lt;/a>
 &lt;/div>
-&lt;/div></description></item><item><title>Combinatorial Group Theory</title><link>https://matthijsmu.github.io/summaries/combinatorial_group_theory/</link><pubDate>Mon, 12 Dec 2022 00:00:01 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/combinatorial_group_theory/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
+&lt;/div></description></item><item><title>Water Pumping Problem</title><link>https://matthijsmu.github.io/project/waterpumpinggraphproblem/</link><pubDate>Mon, 12 Dec 2022 00:00:03 +0000</pubDate><guid>https://matthijsmu.github.io/project/waterpumpinggraphproblem/</guid><description>&lt;h3 id="overview">Overview&lt;/h3>
+&lt;p>Solution for the second Project of the course ADS. The problem is as follows: one has to find a route through a graph, turning on water pumps with the goal to maximize the total water pumped in a finite time window. I proposed a solution that employed:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>A graph reduction phase: use Dijkstra&amp;rsquo;s Algorithm to find shortest paths between all waterpumps, in order to reduce the state space for the dynamic programming phase. The graph reduction phase needs to calculate the shortest paths between all W waterpumps, and therefore it is inefficient to employ Floyd-Warshall&amp;rsquo;s Algorithm, which would run in O(V^3) where V ~ 5000, whereas W &amp;lt;= 12 so running Dijkstra W times is O(W(W+E)log(V)).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Then use dynamic programming (a detailed explanation of the problem statement and how dynamic programming applies, can be found in the report).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>During the dynamic programming, employ a branch-and-bound mechanism to prune partial solutions early if they are guaranteed to only lead to suboptimal solutions. This does not affect the worst-case complexity of the algorithm, but in practice it lead to lower wallclock times on most test cases, in particular for the large problems (V ~ 5000, t ~ 10000)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="what-to-find-in-the-repository">What to find in the repository&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>The problem statement, providing a description of the problem and of the way input is given (also helpful if you want to know how the test cases are passed to the program)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The solution is implemented in C++, see &lt;code>WaterProblem.cpp&lt;/code>. This code is generously commented and this should make it completely self-explanatory. I encourage you to have a look at the code first.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Then, a report that explains the algorithm and shows its correctness and complexity.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A folder containing 27 test cases, which you can try on the compiled code. Non-sample cases are numbered 01 to 23. Each test case consists of two files, namely &lt;code>&amp;lt;nr&amp;gt;-&amp;lt;size&amp;gt;.in&lt;/code> containing input in plain text, and &lt;code>&amp;lt;nr&amp;gt;-&amp;lt;size&amp;gt;.out&lt;/code> containing the required output (maximum water pumped) in a single line of plain text. The test cases are formatted according to the problem statement.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A makefile to compile the code, because typing &lt;code>g++ -o WaterProblem WaterProblem.cpp&lt;/code> is obviously too tedious.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="try-it-yourself">Try it yourself&lt;/h3>
+&lt;p>You can compile the program using the accompanying makefile:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">../Water-Pumping-Graph-Problem$ make
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">g++ -o WaterProblem WaterProblem.cpp
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">../Water-Pumping-Graph-Problem$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then run it:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">../Water-Pumping-Graph-Problem$ ./WaterProblem
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The program waits for input, which you can provide by copying the entire contents of a &lt;code>.in&lt;/code> file (hint: &lt;code>Ctrl&lt;/code>+&lt;code>a&lt;/code> + &lt;code>v&lt;/code>) into the terminal (hint: &lt;code>Ctrl&lt;/code>+&lt;code>Shift&lt;/code>+&lt;code>v&lt;/code>) and pressing return once the buffer has been copied completely into stdin.
+It should give the answer within 0.1 second for most test cases. You can check this against the &lt;code>.ans&lt;/code> file.&lt;/p>
+&lt;h3 id="takeaways">Takeaways&lt;/h3>
+&lt;p>This project learned me some more C++, and finally gave me the chance to employ a branch-and-bound mechanism to an actual problem. I enjoyed this and will look into doing more competitive programming, which seems to offer problems that are similar to this.&lt;/p></description></item><item><title>Combinatorial Group Theory</title><link>https://matthijsmu.github.io/summaries/combinatorial_group_theory/</link><pubDate>Mon, 12 Dec 2022 00:00:01 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/combinatorial_group_theory/</guid><description>&lt;h3 id="chapters">Chapters&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;u>&lt;a href="CGT_Cayley_Graph_Ch1.pdf">1. Cayley Graph of Groups&lt;/a>&lt;/u>:&lt;/p>
@@ -300,21 +341,26 @@ have a scroll through it, it&amp;rsquo;s very pleasant to the eye!&lt;/p>
 &lt;h3 id="implementation">Implementation&lt;/h3>
 &lt;p>The implementation of Hopcroft-Karp presented here is different from Wikipedia, and faster. There is no distance dictionary for keeping track of the layers. Rather, a BFS lattice is built every BFS iteration, which is then explored backwards in the DFS phase. Nodes are marked as visited, but edges are not: rather, we use a residual graph (like in the Ford-Fulkerson algorithm) to keep track of the direction in which edges may be traversed. This was apparently an approach that Python could execute much faster, because only this approach was what made us pass all the test cases without time limits!&lt;/p>
 &lt;h3 id="contents">Contents&lt;/h3>
-&lt;p>The repo contains the code, and a report.&lt;/p>
+&lt;p>The repo contains the problem statement, code, and a report.&lt;/p>
 &lt;ul>
+&lt;li>The problem statement formally states the problem to solve and specifies the input format that the test cases follow.&lt;/li>
 &lt;li>The report features a proof of correctness and complexity analysis.&lt;/li>
-&lt;li>The code is split up into 2 classes and a main program:
+&lt;li>The code (to be found in &lt;code>Solution_Code&lt;/code>) is split up into 2 classes and a main program:
 &lt;ol>
 &lt;li>class Matching (&lt;code>bipartiteMatching.py&lt;/code>) for solving general bipartite matching problems using Hopcroft-Karp.&lt;/li>
 &lt;li>class MinChainPartition (&lt;code>minChainPartition.py&lt;/code>) for solving general minimum-chain partitioning problems. It is backed by the class Matching, of course.&lt;/li>
-&lt;li>a main program (&lt;code>main.py&lt;/code>) which contains code specific to solving the box-fitting problem specified in the problem statement. It contains relevant functions to this problem, such as the relation defining the partial order on the boxes, and a function for getting and parsing the specified input format.&lt;/li>
+&lt;li>a main program (&lt;code>main.py&lt;/code>) which contains code specific to solving the box-fitting problem specified in the problem statement. It contains relevant functions to this problem, such as a comparator that defines partial order on the boxes, as well as a function for parsing the specified input format.&lt;/li>
 &lt;/ol>
 &lt;/li>
+&lt;li>A folder &lt;code>Test_Cases&lt;/code> containing test cases numbered from 1 to 26, which you can try on the code. The cases are numbered 1 to 26. Each test case consists of two files, namely &lt;code>&amp;lt;nr&amp;gt;.in&lt;/code> containing input in plain text, and &lt;code>&amp;lt;nr&amp;gt;.out&lt;/code> containing the required output (the minimum number of box stacks) in a single line of plain text. The test cases are formatted according to the problem statement.&lt;/li>
 &lt;/ul>
 &lt;h3 id="usage">Usage&lt;/h3>
 &lt;p>If you want to use the code to solve your own box stacking problem, please read the problem statement to see the required input format. The &lt;code>main.py&lt;/code> script will wait for input in the specified format and print a minimum number of chains to stdout.&lt;/p>
-&lt;p>I included one large and one small test case that you can copy-paste into the terminal, along with the expected output. Try this if you are interested, or if you cannot come up with interesting test cases of 5000 boxes yourself.&lt;/p>
-&lt;p>It should be noted that the I/O part of the program is mainly constructed for testing purposes in an automated testing environment (DOMJudge). The classes are however implemented for general min-chain partitioning problems or bipartite matchings and can certainly be reused in many different scenarios.&lt;/p></description></item><item><title>Rings and Fields</title><link>https://matthijsmu.github.io/summaries/rings_fields/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/rings_fields/</guid><description>&lt;h3 id="part-1-rings">Part 1: Rings&lt;/h3>
+&lt;p>Test cases range in size from 4 to 5000 boxes. To run a test, change directories to &lt;code>Solution_Code&lt;/code> and start the interpreter; the entry code is in &lt;code>main.py&lt;/code>, so you run this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">../Solution_Code$ python3 main.py
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The program will wait for input, and you can copy-paste the plain text of a test&amp;rsquo;s &lt;code>.in&lt;/code> file (hint: &lt;code>Ctrl&lt;/code>+&lt;code>a&lt;/code> + &lt;code>v&lt;/code>) into the terminal (&lt;code>Ctrl&lt;/code>+&lt;code>Shift&lt;/code>+&lt;code>v&lt;/code>) into the terminal. Within &lt;strong>a few seconds&lt;/strong> (5 or less, this is Python code, after all&amp;hellip;), the program will print an integer, the minimum number of outer boxes. Try this if you are interested, or if you cannot come up with interesting test cases of 5000 boxes yourself.&lt;/p>
+&lt;p>It should be noted that the main.py part of the program is mainly constructed for testing purposes.&lt;/p>
+&lt;p>The classes for solving min-chain partitioning problems and bipartite matchings have, however, been intendedly separated from this driver code. These modules can be reused for solving general min-chain partitioning problems or bipartite matchings.&lt;/p></description></item><item><title>Operating Systems Projects</title><link>https://matthijsmu.github.io/project/osprojects/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/project/osprojects/</guid><description/></item><item><title>Rings and Fields</title><link>https://matthijsmu.github.io/summaries/rings_fields/</link><pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate><guid>https://matthijsmu.github.io/summaries/rings_fields/</guid><description>&lt;h3 id="part-1-rings">Part 1: Rings&lt;/h3>
 &lt;ol>
 &lt;li>&lt;u>&lt;a href="RingsChapter1.pdf">Definition, examples, elementary properties&lt;/a>&lt;/u>&lt;/li>
 &lt;li>&lt;u>&lt;a href="RingsChapter2.pdf">Ringhomomorphisms and Ideals&lt;/a>&lt;/u>&lt;/li>
